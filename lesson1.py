@@ -12,7 +12,7 @@ age = input('How old are u?: ')
 film = input('Which your favorite film?: ')
 book = input('which your favorite book?: ')
 
-print('your name is', name + ', '
+print('your name is', name, ', '
     'you are', age, 'years old, '
-    'your favorite book is', book, ', '
+    'your favorite book is', book + ', '
     'your favorite film is', film + '.')
