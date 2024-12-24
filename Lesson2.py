@@ -48,10 +48,26 @@ name =
 # far = c * 1.8 + 32
 # print(far)
 
+#
+# num1 = int(input("1 цифра: "))
+# num2 = int(input("2 цифра: "))
+# num3 = int(input("3 цифра: "))
+#
+# multiply = num1 * num2 * num3
+# print(multiply)
 
-num1 = int(input("1 цифра: "))
-num2 = int(input("2 цифра: "))
-num3 = int(input("3 цифра: "))
+num1 = int(input('insert 1 num:'))
+num2 = int(input('insert 2 num:'))
+summa = num1 + num2
+minus = num1 - num2
+multi = num1 * num2
+div = num1 / num2
+divWithoutAll =  num1 // num2
+sqr = num1 ** num2
 
-multiply = num1 * num2 * num3
-print(multiply)
+print('сумма: ', summa)
+print('разность: ', minus)
+print('произведение: ', multi)
+print('частное: ', div)
+print('частное без остатка:', divWithoutAll)
+print('квадратный корень: ', sqr)
